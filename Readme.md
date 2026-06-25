@@ -114,9 +114,57 @@ Double check that you are still inside a (nix-shell). Your terminal prompt shoul
 To invoke the flow, run the following command:
 
 ```bash
-librelane config.json
+librelane config.json --run-tag YOUR-RUN-NAME
 ```
+
+Change YOUR-RUN-NAME to the name of your run (e.g. test1)
 
 ## Checking Results
 
+### Viewing the Layout
+
+Navigate to the following point in the project directory from the root:
+
+```bash
+cd librelane/examples/test_sram_macro/runs
+ls
+```
+
+You should see a directory with the same name as your run tag from before. (cd) into that directory
+and list out all the files using (ls). From here, navigate to the 'final' directory.
+
+```bash
+cd final
+ls
+```
+
+### KLayout
+
+To view the hardened design in KLayout, run the following:
+
+```bash
+cd klayout_gds
+klayout test_sram_macro.klayout.gds
+```
+
+These commands load the .gds file into KLayout and you should see the following:
+![SRAM Macro in KLayout](./images/SRAM-KLayout.png)
+
+If you do not have klayout installed on your machine follow the necessary steps and re-run commands.
+
+### OpenROAD GUI
+
+To view the hardened design in the OpenROAD GUI navigate back to the final directory and run the following:
+
+```bash
+cd odb
+openroad
+read_db test_sram_macro.odb
+gui::show
+```
+
+These commands load the .odb into the OpenROAD gui and you should see the following:
+![SRAM Macro in OpenROAD Gui](./images/SRAM-OpenROAD-GUI.png)
+
+If you do not have [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD) installed on your machine follow the neceesary steps and re-run commands
 
