@@ -75,6 +75,6 @@ of information (0 or 1) until the value is overwritten or power is removed. This
 design integrates two SRAM cells and other support circuitry to make up the macro. A block diagram
 of the SRAM macro and the SRAM cells it integrates can be found below.
 
-![Block Diagram of SRAM Macro](./images/SRAM Macro Block Diagram.png)
+![Block Diagram of SRAM Macro](/images/SRAM Macro Block Diagram.png)
 
 
