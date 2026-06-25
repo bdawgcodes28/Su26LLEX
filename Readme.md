@@ -98,10 +98,42 @@ that we will be using.
 
 The sourse RTL of the design consists of one file. That file being (`test_sram_macro.v`).
 It is located in the src folder. You can navigate to the src folder from the project root
-using the following command:
+using the following commannd:
+
+```bash
+cd librelane/examples/test_sram_macro/src
+ls
+```
+
+This file represents the top level of our design. To inspect its contents, run the following command:
+
+```bash
+nano test_sram_macro.v
+```
+
+Inside the file you will see two instances of the SRAM cell being integrated in the top level; sram0 and sram1.
+After the flow is complete, you will see these cells in the hardened design.
+
+### Running LibreLane Flow
+
+navigate back to:
 
 ```bash
 cd librelane/examples/test_sram_macro
 ```
+
+Double check that you are still inside a (nix-shell). Your terminal prompt should look like this:
+
+```bash
+[nix-shell:~Su26LLEX/librelane/examples/test_sram_macro]
+```
+
+To invoke the flow, run the following command:
+
+```bash
+librelane config.json
+```
+
+## Checking Results
 
 
