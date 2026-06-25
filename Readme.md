@@ -1,22 +1,3 @@
-<h1 align="center"><img src="docs/_static/logo/librelane-logo-full.svg" width="200px" /></h1>
-<p align="center">
-    <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache 2.0"/></a>
-    <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-3.10-3776AB.svg?style=flat&logo=python&logoColor=white" alt="Python ≥3.10" /></a>
-    <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code Style: black"/></a>
-    <a href="https://mypy-lang.org/"><img src="https://www.mypy-lang.org/static/mypy_badge.svg" alt="Checked with mypy"/></a>
-    <a href="https://nixos.org/"><img src="https://img.shields.io/static/v1?logo=nixos&logoColor=white&label=&message=Built%20with%20Nix&color=41439a" alt="Built with Nix"/></a>
-</p>
-<p align="center">
-    <a href="https://colab.research.google.com/github/librelane/librelane/blob/main/notebook.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
-    <a href="https://librelane.readthedocs.io/"><img src="https://readthedocs.org/projects/librelane/badge/?version=latest" alt="Documentation Build Status Badge"/></a>
-    <a href="https://fossi-chat.org"><img src="https://img.shields.io/badge/Community-FOSSi%20Chat-1bb378?logo=element" alt="Invite to FOSSi Chat"/></a>
-</p>
-
-[LibreLane](https://librelane.org) is a powerful and versatile infrastructure
-library that enables the construction of digital implementation flows for
-application specific integrated circuits (ASICs) based on open-source and
-commercial electronic design automation (EDA) tools.
-
 ## Introduction
 
 Hello! I am currently conducting research at NC A&T as a member of the ADEPT
