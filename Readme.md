@@ -53,7 +53,9 @@ After all packages are downloaded, the terminal prompt should change to:
 
 We are going to use an SRAM macro design. SRAM cells are designed to hold single bits
 of information (0 or 1) until the value is overwritten or power is removed. This specific
-design integrates two SRAM cells and other support circuitry to make up the macro.
+design integrates two SRAM cells and other support circuitry to make up the macro. View block diagram below:
+
+![SRAM Macro Block Diagram](./images/sram-macro-block-diagram.png)
 
 ### Exploring the Files
 
