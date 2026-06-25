@@ -72,9 +72,36 @@ After all packages are downloaded, the terminal prompt should change to:
 
 We are going to use an SRAM macro design. SRAM cells are designed to hold single bits
 of information (0 or 1) until the value is overwritten or power is removed. This specific
-design integrates two SRAM cells and other support circuitry to make up the macro. A block diagram
-of the SRAM macro and the SRAM cells it integrates can be found below.
+design integrates two SRAM cells and other support circuitry to make up the macro.
 
-![Block Diagram of SRAM Macro](/images/SRAM Macro Block Diagram.png)
+### Exploring the Files
+
+First we will navigate to the example we wish to run through the LibreLane flow. To get there,
+run the following from the project root:
+
+```bash
+cd librelane/examples/test_sram_macro
+ls
+```
+
+This command will take you to the example and list out all the files. You will also see a runs
+folder that can can ignore for the time being. I will give a brief explanation of the files here:
+
+* config.json: this is a configuration file that contains values used to control the flow
+* macro_placement.cfg: this is a file used in the configuration that maps where each macro (in this case SRAM cell) should be placed in the top level
+* sky130_sram_1kbyte_1rw1r_32x256_8.bb.v: this verilog files contains the design of the SRAM cell
+
+You will notice that there is a directory named 'src.' The src directory contains the source code/design
+that we will be using.
+
+### RTL
+
+The sourse RTL of the design consists of one file. That file being (`test_sram_macro.v`).
+It is located in the src folder. You can navigate to the src folder from the project root
+using the following command:
+
+```bash
+cd librelane/examples/test_sram_macro
+```
 
 
