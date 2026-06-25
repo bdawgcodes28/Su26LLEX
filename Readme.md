@@ -17,13 +17,22 @@ library that enables the construction of digital implementation flows for
 application specific integrated circuits (ASICs) based on open-source and
 commercial electronic design automation (EDA) tools.
 
-## Try it out
+## Introduction
 
-You can try LibreLane right in your browser, free-of-charge, using Google
-Colaboratory by following
-[**this link**](https://colab.research.google.com/github/librelane/librelane/blob/main/notebook.ipynb).
+Hello! I am currently conducting research at NC A&T as a member of the ADEPT
+Laboratory. I made this GitHub repository is forked from the [LibreLane GitHub Repository](https://github.com/librelane/librelane)
+and is meant to provide a general overview of how LibreLane fits into
+my research this summer.
 
-## Installation
+## What to Expect
+
+This tutorial will detail running the LibreLane flow on RTL (Register Transfer Level)
+designs. It will be split into two parts:
+
+* Running the LibreLane flow on an SRAM macro [openlane2-ci-designs test_sram_macro](https://github.com/efabless/openlane2-ci-designs/tree/main/test_sram_macro)
+* An interactive tutorial using a verilog RTL design from EDAplayground [edaplayground](https://www.edaplayground.com/playgrounds?searchString=&_showAllResults=on&language=&simulator=&methodologies=&_libraries=on&_easierUVM=on&curated=true&_curated=on)
+
+## Getting Started
 
 You'll need the following:
 
