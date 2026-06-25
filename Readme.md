@@ -32,7 +32,7 @@ designs. It will be split into two parts:
 * Running the LibreLane flow on an SRAM macro [openlane2-ci-designs test_sram_macro](https://github.com/efabless/openlane2-ci-designs/tree/main/test_sram_macro)
 * An interactive tutorial using a verilog RTL design from EDAplayground [edaplayground](https://www.edaplayground.com/playgrounds?searchString=&_showAllResults=on&language=&simulator=&methodologies=&_libraries=on&_easierUVM=on&curated=true&_curated=on)
 
-## Getting Started
+## Installation/Getting Started
 
 You'll need the following:
 
@@ -47,7 +47,7 @@ See
 [Nix-based installation](https://librelane.readthedocs.io/en/latest/installation/nix_installation/index.html)
 in the docs for more info.
 
-## Running LibreLane flow on SRAM Macro
+### Cloning Repository and Invoking Nix Shell
 
 At this point you should have the NIX shell downloaded on your local machine. Open
 a Linux/Ubuntu terminal and clone this repository:
@@ -67,5 +67,14 @@ After all packages are downloaded, the terminal prompt should change to:
 ```bash
 [nix-shell:~Su26LLEX]
 ```
+
+## Running Default LibreLane Flow
+
+We are going to use an SRAM macro design. SRAM cells are designed to hold single bits
+of information (0 or 1) until the value is overwritten or power is removed. This specific
+design integrates two SRAM cells and other support circuitry to make up the macro. A block diagram
+of the SRAM macro and the SRAM cells it integrates can be found below.
+
+![Block Diagram of SRAM Macro](https://chatgpt.com/backend-api/estuary/content?id=file_00000000b6e4720ca1f14dedf3c28e5b&ts=495112&p=fs&cid=1&sig=25bbe53e0149d972c7e3d571f9d57755394345385c16cb9c95c4e9cdb779af7d&v=0)
 
 
