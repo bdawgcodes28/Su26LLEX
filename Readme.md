@@ -20,7 +20,7 @@ commercial electronic design automation (EDA) tools.
 ## Introduction
 
 Hello! I am currently conducting research at NC A&T as a member of the ADEPT
-Laboratory. I made this GitHub repository is forked from the [LibreLane GitHub Repository](https://github.com/librelane/librelane)
+Laboratory. This GitHub repository is forked from the [LibreLane GitHub Repository](https://github.com/librelane/librelane)
 and is meant to provide a general overview of how LibreLane fits into
 my research this summer.
 
@@ -46,4 +46,26 @@ integrated with your filesystem and overall has less upload and download deltas.
 See
 [Nix-based installation](https://librelane.readthedocs.io/en/latest/installation/nix_installation/index.html)
 in the docs for more info.
+
+## Running LibreLane flow on SRAM Macro
+
+At this point you should have the NIX shell downloaded on your local machine. Open
+a Linux/Ubuntu terminal and clone this repository:
+
+```bash
+git clone https://github.com/bdawgcodes28/Su26LLEX.git
+```
+
+Once you have successfully cloned the repository, invoke the nix shell.
+
+```bash
+nix-shell ~/Su26LLEX/shell.nix
+```
+
+After all packages are downloaded, the terminal prompt should change to:
+
+```bash
+[nix-shell:~Su26LLEX]
+```
+
 
