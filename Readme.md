@@ -8,10 +8,9 @@ my research this summer.
 ## What to Expect
 
 This tutorial will detail running the LibreLane flow on RTL (Register Transfer Level)
-designs. It will be split into two parts:
+designs. (See below)
 
 * Running the LibreLane flow on an SRAM macro [openlane2-ci-designs test_sram_macro](https://github.com/efabless/openlane2-ci-designs/tree/main/test_sram_macro)
-* An interactive tutorial using a verilog RTL design from EDAplayground [edaplayground](https://www.edaplayground.com/playgrounds?searchString=&_showAllResults=on&language=&simulator=&methodologies=&_libraries=on&_easierUVM=on&curated=true&_curated=on)
 
 ## Installation/Getting Started
 
