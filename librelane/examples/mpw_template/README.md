@@ -31,6 +31,7 @@ cd librelane/examples/mpw_template
 
 See the following diagram to view the file structure of this directory:
 
+```text
 mpw_template/
 ├── Design 1/
 |	├── config.json
@@ -54,10 +55,12 @@ mpw_template/
 |	├── src/
 |		├── defines.v
 |		├── user_project_wrapper.v
+```
 
 This file structure is pertains only to this tutorial. When you begin developing you own
 projects, a more typical file structure may look like the following:
 
+```
 mpw_template/
 ├── Design 1/
 |	├── config.json
@@ -77,6 +80,7 @@ mpw_template/
 |	├── src/
 |		├── defines.v
 |		├── user_project_wrapper.v
+```
 
 ### Running Librelane Flow
 
