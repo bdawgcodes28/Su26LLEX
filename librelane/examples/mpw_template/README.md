@@ -122,6 +122,10 @@ cd klayout_gds
 klayout user_project_wrapper.klayout.gds
 ```
 
+See below for results:
+
+![SRAM macros instantiated in Wrapper](../../../images/Klayout-SRAM-Wrapper)
+
 ### OpenROAD GUI
 
 To view the hardened wrapper in the OpenROAD GUI run the following:
@@ -133,9 +137,6 @@ read_db user_project_wrapper.odb
 gui::show
 ```
 
+See below for results
 
-
-
-
-
-
+![SRAM macros instantiated in Wrapper](../../../images/OpenROAD-SRAM-Wrapper)
