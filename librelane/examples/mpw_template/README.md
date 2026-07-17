@@ -124,7 +124,7 @@ klayout user_project_wrapper.klayout.gds
 
 See below for results:
 
-![SRAM macros instantiated in Wrapper](../../images/Klayout-SRAM-Wrapper)
+![SRAM macros instantiated in Wrapper](./result_images/Wrapper_Klayout.png)
 
 ### OpenROAD GUI
 
@@ -139,4 +139,4 @@ gui::show
 
 See below for results
 
-![SRAM macros instantiated in Wrapper](../../images/OpenROAD-SRAM-Wrapper)
+![SRAM macros instantiated in Wrapper](./result_images/Wrapper_OpenROAD.png)
