@@ -1,0 +1,14 @@
+{
+    "DESIGN_NAME": "inv_ring_osc",
+    "VERILOG_FILES": "dir::src/inv_ring_osc.sv",
+    "DESIGN_IS_CORE": true,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 150 250",
+    "PL_TARGET_DENSITY": 0.5,
+    "VDD_NETS": "vccd1",
+    "GND_NETS": "vssd1",
+    "RUN_KLAYOUT_XOR": false,
+    "MAGIC_DRC_USE_GDS": true,
+    "QUIT_ON_MAGIC_DRC": false,
+    "RUN_LINTER": false
+}

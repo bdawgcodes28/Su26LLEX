@@ -1,0 +1,68 @@
+{
+    "DESIGN_NAME": "inv_ring_osc2",
+    "VERILOG_FILES": "dir::src/inv_ring_osc2.sv",
+    "DESIGN_IS_CORE": true,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 500 400",
+    "PL_TARGET_DENSITY": 0.5,
+    "VDD_NETS": "vccd1",
+    "GND_NETS": "vssd1",
+    "PDN_MACRO_CONNECTIONS": [
+    	"submodule.inv_ring_osc1 vccd1 vssd1 vccd1 vssd1",
+    	"submodule.inv_ring_osc2 vccd1 vssd1 vccd1 vssd1"
+	],
+	"MACROS": {
+    	"inv_ring_osc": {
+        	"gds": [
+            	"dir::runs/macros/final/gds/inv_ring_osc.gds"
+        	],
+        	"lef": [
+            	"dir::runs/macros/final/lef/inv_ring_osc.lef"
+        	],
+        	"lib": {
+            	"max_ff_n40C_1v95": [
+                	"dir::runs/macros/final/lib/max_ff_n40C_1v95/inv_ring_osc__max_ff_n40C_1v95.lib"
+            ],
+            	"max_ss_100C_1v60": [
+                	"dir::runs/macros/final/lib/max_ss_100C_1v60/inv_ring_osc__max_ss_100C_1v60.lib"
+            ],
+            	"max_tt_025C_1v80": [
+                	"dir::runs/macros/final/lib/max_tt_025C_1v80/inv_ring_osc__max_tt_025C_1v80.lib"
+            ],
+            	"min_ff_n40C_1v95": [
+                	"dir::runs/macros/final/lib/min_ff_n40C_1v95/inv_ring_osc__min_ff_n40C_1v95.lib"
+            ],
+            	"min_ss_100C_1v60": [
+                	"dir::runs/macros/final/lib/min_ss_100C_1v60/inv_ring_osc__min_ss_100C_1v60.lib"
+            ],
+            	"min_tt_025C_1v80": [
+                	"dir::runs/macros/final/lib/min_tt_025C_1v80/inv_ring_osc__min_tt_025C_1v80.lib"
+            ],
+            	"nom_ff_n40C_1v95": [
+                	"dir::runs/macros/final/lib/nom_ff_n40C_1v95/inv_ring_osc__nom_ff_n40C_1v95.lib"
+            ],
+            	"nom_ss_100C_1v60": [
+                	"dir::runs/macros/final/lib/nom_ss_100C_1v60/inv_ring_osc__nom_ss_100C_1v60.lib"
+            ],
+            	"nom_tt_025C_1v80": [
+                	"dir::runs/macros/final/lib/nom_tt_025C_1v80/inv_ring_osc__nom_tt_025C_1v80.lib"
+            ]
+        },
+        "instances": {
+            "submodule.inv_ring_osc1": {
+				"location": [50, 50],
+				"orientation": "N"
+            },
+            "submodule.inv_ring_osc2": {
+				"location": [250, 50],
+				"orientation": "N"
+            }
+        }
+    	}
+	},
+    "EXTRA_VERILOG_MODELS": "dir::inv_ring_osc.bb.sv",
+    "RUN_KLAYOUT_XOR": false,
+    "MAGIC_DRC_USE_GDS": true,
+    "QUIT_ON_MAGIC_DRC": false,
+    "RUN_LINTER": false
+}
